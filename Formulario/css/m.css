@@ -82,7 +82,7 @@ display: block;
 
 
 #Instrucciones{
-	background-image: url("../img/instruccion_movil.jpg");
+	background-image: url("../img/Instruccion.jpg");
 	display:block;
 	height:20px;
 	width:85px;
@@ -116,5 +116,5 @@ li{
 			background-image: url("../img/quiz_hover.jpg");
 }
 #Instrucciones:hover{
-	background-image: url("../img/instruccion_hover_movil.jpg");
+	background-image: url("../img/Instruccion_hover_movil.jpg");
 }
