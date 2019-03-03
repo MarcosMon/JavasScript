@@ -1,0 +1,93 @@
+body,html {
+	margin:10px;
+}
+body {
+	width:100%;
+	padding-left:0%;
+	padding-right: 0%;
+	background-image: url("../img/fondo.jpg");
+	
+}
+body,input,select,label {
+	font-size:1vw;
+}
+h3 {
+	font-size:18px;
+	color:green;
+}
+h1 {
+  font-weight: bold;
+  font-size: 68px;
+  font-family: "Arial";
+  text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  color:#2EFE2E;
+  text-align: center;
+  margin:auto;
+  padding:20px;
+}
+
+input[type=checkbox] {
+	width:4%;
+	zoom:1.5;
+}
+input[type=radio] {
+	width:4%;
+	zoom:1.5;
+}
+form {
+	padding: 5%;
+	background:#F4FA58;
+	width:800px;
+	margin:auto;
+	border-style: outset;
+	
+	
+}
+#resultadosDiv{
+	background:#A4A4A4;
+text-align:center;
+text-align: left; 
+font-family: Comic Sans MS; 
+font-weight:bold; 
+font-size: 24px; 
+color: #EBD758; 
+text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68; 
+  width:935px;
+  margin:auto;
+  border-style: outset;
+  
+}
+#imagen{
+	width:60px;
+	margin:auto;
+	padding:auto;
+}
+#corregir{
+	color:green;
+	border-style: outset;
+	width:140px;
+	height:40px;
+	background:#F7FE2E;
+margin: auto; 
+display: block;
+
+}
+
+#corregir:hover{
+	background-color:yellow;
+}
+fieldset{
+		border-style: inset ;
+		margin:auto;
+}
