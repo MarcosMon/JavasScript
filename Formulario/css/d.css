@@ -55,7 +55,7 @@ form {
 	
 }
 #resultadosDiv{
-	background:#A4A4A4;
+background:#A4A4A4;
 text-align:center;
 text-align: left; 
 font-family: Comic Sans MS; 
@@ -91,3 +91,46 @@ fieldset{
 		border-style: inset ;
 		margin:auto;
 }
+
+#Instrucciones{
+	background-image: url("../img/instruccion.jpg");
+	display:block;
+	height:38px;
+	width:150px;
+	margin-top:-40px;
+}
+#espi{
+	padding:50px;
+	width:30%;
+	height:90%;
+	display:block;
+	margin:auto;
+	text-align:center;
+	font-weight: bold;
+  font-size: 14px;
+  font-family: "Arial";
+  color:#2EFE2E;
+text-align: center;
+}
+li{
+	text-align:left;
+}
+#InstruccionesField{
+	background:black;
+}
+#quiz{
+		background-image: url("../img/quiz.jpg");
+	display:block;
+	height:50px;
+	width:130px;
+	margin-top:-40px;
+}
+#quiz:hover{
+			background-image: url("../img/quiz_hover.jpg");
+}
+#Instrucciones:hover{
+	background-image: url("../img/instruccion_hover_pc.jpg");
+}
+	
+
+

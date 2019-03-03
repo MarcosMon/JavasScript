@@ -79,3 +79,42 @@ display: block;
 	height:40px;
 	background:#F7FE2E;
 }
+
+
+#Instrucciones{
+	background-image: url("../img/instruccion_movil.jpg");
+	display:block;
+	height:20px;
+	width:85px;
+	margin-top:-40px;
+}
+#espi{
+
+	display:block;
+	margin-top:220px;
+	text-align:center;
+	font-weight: bold;
+  font-size: 12px;
+  font-family: "Arial";
+  color:#2EFE2E;
+text-align: center;
+}
+li{
+	text-align:left;
+}
+#InstruccionesField{
+	background:black;
+}
+#quiz{
+		background-image: url("../img/quiz.jpg");
+	display:block;
+	height:50px;
+	width:125px;
+
+}
+#quiz:hover{
+			background-image: url("../img/quiz_hover.jpg");
+}
+#Instrucciones:hover{
+	background-image: url("../img/instruccion_hover_movil.jpg");
+}
