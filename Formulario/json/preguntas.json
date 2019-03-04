@@ -12,10 +12,10 @@
         "type": "select",
         "title": "¿Cuál de estas frases pertenece al filósofo Friedrich Nietzsche?",
         "option": [
-          "El destino de los hombres está hecho de momentos felices, toda la vida los tiene, pero no de épocas felices.",
+          "Sin música, la vida sería un error.",
           "Pienso, luego existo.",
-          "Solo hay un Dios, el conocimiento, y un demonio, la ignorancia.",
-          "Puedo controlar mis pasiones y emociones si puedo entender su naturaleza."
+          "Solo hay un Dios, el conocimiento.",
+          "Lo que no me mata, me hará más fuerte."
         ],
         "answer": "0"
       },
@@ -109,8 +109,8 @@
       {
         "-id": "pregunta_10",
         "type": "text",
-        "title": "Realiza la siguiente operación: 9 x 17 + 11 ÷8 -3,5 ",
-        "answer": "17"
+        "title": "¿Cuantos estados tienen los Estados Unidos?",
+        "answer": "50"
       }
     ]
   }
