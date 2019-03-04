@@ -117,3 +117,7 @@ li{
 #Instrucciones:hover{
 	background-image: url("../img/Instruccion_hover_movil.png");
 }
+#Hello{
+	width:80%;
+	height:40%;
+}
