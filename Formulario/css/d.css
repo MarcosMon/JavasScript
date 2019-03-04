@@ -115,7 +115,8 @@ li{
 	text-align:left;
 }
 #InstruccionesField{
-	background:blue;
+	background:black;
+	margin:auto;
 }
 #quiz{
 		background-image: url("../img/quiz.jpg");
