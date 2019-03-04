@@ -98,7 +98,8 @@ display: block;
 text-align: center;
 }
 li{
-	text-align:left;
+	text-align:center;
+	display:block;
 }
 #InstruccionesField{
 	background:black;
