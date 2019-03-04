@@ -1,121 +1,128 @@
-body,html {
-	margin:10px
+body,
+html {
+	margin: 10px
 }
+
 body {
-	width:100%;
-	margin:auto;
+	width: 100%;
+	margin: auto;
 	background-image: url("../img/fondo.jpg");
 }
+
 h1 {
-  font-weight: bold;
-  font-size: 32px;
-  font-family: "Arial";
-  text-shadow: 0 1px 0 #ccc, 
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
-  color:#2EFE2E;
-  text-align: center;
-  margin:auto;
-  padding:20px;
+	font-weight: bold;
+	font-size: 32px;
+	font-family: "Arial";
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+	color: #2EFE2E;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
 }
 
 h3 {
-	font-size:14px;
-	color:green;
+	font-size: 14px;
+	color: green;
 }
-#sel{
-	width:210px;
-	font-size:9px;
-}
-label{
-	font-size:12px;
-}
-input,select {
 
-	font-size:10px;
+#sel {
+	width: 210px;
+	font-size: 9px;
 }
+
+label {
+	font-size: 12px;
+}
+
+input,
+select {
+	font-size: 10px;
+}
+
 input[type=checkbox] {
-	width:4%;
-	
+	width: 4%;
 }
+
 input[type=radio] {
-	width:4%;
+	width: 4%;
 }
+
 form {
 	padding: 5%;
-	background:#F4FA58;
-	margin:auto;
+	background: #F4FA58;
+	margin: auto;
 	border-style: outset;
-}
-fieldset{
-		border-style: inset ;
-		margin:auto;
-}
-#resultadosDiv{
-	background:#A4A4A4;
-	text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68; 
-	margin:auto;
-	border-style: outset;
-	font-family: Comic Sans MS; 
-	color: #EBD758; 
-	font-weight:bold;
-	font-size:12px;
-}
-#corregir{
-margin: auto; 
-display: block;
-	color:green;
-	border-style: outset;
-	width:120px;
-	height:40px;
-	background:#F7FE2E;
 }
 
-
-#Instrucciones{
-	background-image: url("../img/Instruccion_movil.png");
-	display:block;
-	height:120px;
-	width:120px;
-	margin:auto;
+fieldset {
+	border-style: inset;
+	margin: auto;
 }
-#espi{
-	display:block;
-	text-align:center;
+
+#resultadosDiv {
+	background: #A4A4A4;
+	text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+	6px 6px #414D68,
+	7px 7px #414D68,
+	8px 8px #414D68,
+	9px 9px #414D68;
+	margin: auto;
+	border-style: outset;
+	font-family: Comic Sans MS;
+	color: #EBD758;
 	font-weight: bold;
-  font-size: 12px;
-  font-family: "Arial";
-  color:#2EFE2E;
-text-align: center;
+	font-size: 12px;
 }
-li{
-	text-align:center;
-	display:block;
-}
-#InstruccionesField{
-	background:black;
-	margin:auto;
-}
-#quiz{
-		background-image: url("../img/quiz.jpg");
-	display:block;
-	height:50px;
-	width:125px;
 
+#corregir {
+	margin: auto;
+	display: block;
+	color: green;
+	border-style: outset;
+	width: 120px;
+	height: 40px;
+	background: #F7FE2E;
 }
-#quiz:hover{
-			background-image: url("../img/quiz_hover.jpg");
+
+#Instrucciones {
+	background-image: url("../img/Instruccion_movil.png");
+	display: block;
+	height: 120px;
+	width: 120px;
+	margin: auto;
 }
-#Instrucciones:hover{
+
+#espi {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: "Arial";
+	color: #2EFE2E;
+	text-align: center;
+}
+
+li {
+	text-align: center;
+	display: block;
+}
+
+#InstruccionesField {
+	background: black;
+	margin: auto;
+}
+
+#quiz {
+	background-image: url("../img/quiz.jpg");
+	display: block;
+	height: 50px;
+	width: 125px;
+}
+
+#quiz:hover {
+	background-image: url("../img/quiz_hover.jpg");
+}
+
+#Instrucciones:hover {
 	background-image: url("../img/Instruccion_hover_movil.png");
 }
-
