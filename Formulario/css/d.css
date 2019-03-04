@@ -35,12 +35,10 @@ h1 {
 
 input[type=checkbox] {
 	width: 4%;
-	zoom: 1.5;
 }
 
 input[type=radio] {
 	width: 4%;
-	zoom: 1.5;
 }
 
 form {
@@ -55,25 +53,16 @@ form {
 	background: #A4A4A4;
 	text-align: center;
 	text-align: left;
-	font-family: Comic Sans MS;
+	font-family: "Comic Sans MS";
 	font-weight: bold;
 	font-size: 24px;
 	color: #EBD758;
 	text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
-	6px 6px #414D68,
-	7px 7px #414D68,
-	8px 8px #414D68,
-	9px 9px #414D68;
 	width: 935px;
 	margin: auto;
 	border-style: outset;
 }
 
-#imagen {
-	width: 60px;
-	margin: auto;
-	padding: auto;
-}
 
 #corregir {
 	color: green;
