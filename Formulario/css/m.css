@@ -89,7 +89,6 @@ display: block;
 	margin:auto;
 }
 #espi{
-
 	text-align:center;
 	font-weight: bold;
   font-size: 12px;
@@ -102,6 +101,7 @@ li{
 }
 #InstruccionesField{
 	background:black;
+	margin:auto;
 }
 #quiz{
 		background-image: url("../img/quiz.jpg");
