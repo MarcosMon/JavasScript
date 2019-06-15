@@ -10,3 +10,10 @@ body{
     flex-direction: column;
 
 }
+
+#color{
+
+    color:pink;
+    background: red;
+    border-block-style: solid;
+}

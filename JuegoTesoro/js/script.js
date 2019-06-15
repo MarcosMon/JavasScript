@@ -19,8 +19,10 @@ $map.addEventListener('click',function(e) {
     $distance.innerHTML = `<h1>${distanceHint}</h1>`
 
     if (distance < 20){
-        alert(`Me has tocado ${tocamientos} para conseguirlo Mmmmm`)
-        location.reload();
+        document.getElementById("map").src = "img/hentaiUno.png";
+        $distance.innerHTML = `<h1>Me has tocado ${tocamientos} veces para conseguirlo Mmmmm</h1>`
+        
+
     }
     
 })

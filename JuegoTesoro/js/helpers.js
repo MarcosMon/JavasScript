@@ -19,10 +19,14 @@ let getDistanceHint = distance => {
     }
 
     else if(distance < 100){
+        return "Te estas acercando ^^";
+    }
+
+    else if(distance < 220){
         return "Me estas enfriando :S";
     }
 
     else
-        return "Vamos mal, pirate";
+        return "Vamos mal.. Puto loser";
 }
 
